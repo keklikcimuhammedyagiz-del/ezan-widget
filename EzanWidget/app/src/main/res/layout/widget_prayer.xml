@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/widget_bg">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="☪ Ezan Vakitleri"
+        android:textColor="#eef5f1"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konum yükleniyor…"
+        android:textColor="#9bbcae"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/widget_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sıradaki: --"
+        android:textColor="#c2e5d4"
+        android:textSize="13sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/widget_next_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="--:--"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView android:id="@+id/t0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="#c2e5d4" android:textSize="10sp" android:text="İmsak\n--" />
+        <TextView android:id="@+id/t1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="#c2e5d4" android:textSize="10sp" android:text="Güneş\n--" />
+        <TextView android:id="@+id/t2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="#c2e5d4" android:textSize="10sp" android:text="Öğle\n--" />
+        <TextView android:id="@+id/t3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="#c2e5d4" android:textSize="10sp" android:text="İkindi\n--" />
+        <TextView android:id="@+id/t4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="#c2e5d4" android:textSize="10sp" android:text="Akşam\n--" />
+        <TextView android:id="@+id/t5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="#c2e5d4" android:textSize="10sp" android:text="Yatsı\n--" />
+
+    </LinearLayout>
+</LinearLayout>
